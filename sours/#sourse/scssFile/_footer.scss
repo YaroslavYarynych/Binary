@@ -1,0 +1,51 @@
+@mixin flexbox() {
+    display: -webkit-box;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    font-size: 0;
+}
+//--------------------------Footer--------------------------------------------
+.footer {
+    background-color: #3c3c3c;
+    padding: 45px 0px;
+    width: 100%;
+    position: relative;
+    &__body {
+        text-align: center;
+    }
+    &__logo {
+        display: inline-block;
+        margin: 0px 0px 40px 0px;
+    }
+    &__menu {
+        text-align: center;
+    }
+    &__list {
+        @include flexbox();
+        flex-direction: row;
+        margin: 0px 0px 35px 0px;
+    }
+    &__link {
+        color: #a4a4a4;
+        font-family: $fontfamily;
+        font-size: 14px;
+        font-weight: 400;
+        margin: 0px 15px;
+        &:hover {
+            color: #fff;
+            transition: 0.6s;
+        }
+    }
+    &__text {
+        color: #a4a4a4;
+        font-family: $fontfamily;
+        font-size: 14px;
+        font-weight: 400;
+        margin: 35px 0px 0px 0px;
+    }
+}

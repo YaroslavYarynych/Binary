@@ -1,0 +1,3 @@
+Binary landing page with BEM and Scss
+I did this landing page with some changes, but It was a really valuable experience.
+I thought that I would burn out due to certain difficulties, but I am okay, and have the motivation to continue this hobby.

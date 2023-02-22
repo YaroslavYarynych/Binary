@@ -1,0 +1,21 @@
+.header-block {
+  text-align: center;
+  position: relative;
+}
+.header-block__title {
+  font-size: 34px;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 8.95px;
+  position: relative;
+}
+.header-block__title:after {
+  content: "";
+  width: 81px;
+  height: 1px;
+  background-color: #000000;
+  position: absolute;
+  left: 42%;
+  margin: 0px 0px 0px -40.5px;
+  margin: 0 auto;
+}
